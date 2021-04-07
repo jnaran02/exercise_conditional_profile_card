@@ -30,7 +30,6 @@ function render(variables = {}) {
   if (variables.includeCover == false) cover = "<div class='cover'></div>";
   if (variables.name == null) variables.name = "Lucy";
   if (variables.lastname == null) variables.lastname = "Boilett";
-  // if (variables.socialMediaPosition == null);
   if (variables.twitter == null) variables.twitter = "";
   if (variables.github == null) variables.github = "";
   if (variables.linkedin == null) variables.linkedin = "";
